@@ -13,8 +13,8 @@ const jobNewSchema = require("../schemas/jobNew.json");
 const jobUpdateSchema = require("../schemas/jobUpdate.json");
 const jobSearchSchema = require("../schemas/jobSearch.json");
 
-const router = express.Router({ mergeParams: true });
-
+// const router = express.Router({ mergeParams: true });
+const router = express.Router();
 
 /** POST / { job } => { job }
  *
