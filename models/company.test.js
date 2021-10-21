@@ -15,7 +15,7 @@ beforeAll(commonBeforeAll);
 beforeEach(commonBeforeEach);
 afterEach(commonAfterEach);
 afterAll(commonAfterAll);
-console.log("I'm here", commonBeforeEach);
+
 
 /************************************** create */
 

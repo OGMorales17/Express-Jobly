@@ -1,0 +1,18 @@
+In the companies route
+const router = new express.Router();
+
+In the users route
+const router = express.Router();
+
+In the auth route
+const router = new express.Router();
+ 
+And in the jobs route
+const router = express.Router({ mergeParams: true });
+
+
+The question is why using new
+and also when use the other aproach I used in express-messagely
+
+const Router = require("express").Router;
+const router = new Router();
